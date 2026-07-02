@@ -1,4 +1,4 @@
-from Models import City, Road
+from Models import City, Road, Ticket
 
 Vancouver = City("Vancouver", wharf=True)
 Anchorage = City("Anchorage", wharf=True)
@@ -146,4 +146,39 @@ roads = [
     Road(Sydney, Port_Moresby, 3, ["yellow"], ["sea route"]),
     Road(Perth, Sydney, 2, ["white", "yellow"], ["railway"]),
     Road(Christchurch, Sydney, 1, ["red", "white"], ["sea route"]),
+]
+
+known_tickets = [
+    Ticket(Honk_Kong, Jakarta, 5),
+    Ticket(Marseille, Al_Qahira, 5),
+    Ticket(Bangkok, Perth, 6),
+    Ticket(Jakarta, Sydney, 7),
+    Ticket(Vancouver, Miami, 9),
+    Ticket(New_York, Marseille, 10),
+    Ticket(Edinburgh, Luanda, 10),
+    Ticket(Los_Angeles, Jakarta, 11),
+    Ticket(Moskva, Toamasina, 11),
+    Ticket(Mexico, New_York, 11),
+
+    Ticket(Cape_Town, Jakarta, 13),
+    Ticket(Hamburg, Beijing, 13),
+    Ticket(Miami, Moskva, 13),
+    Ticket(Reykjavik, Murmansk, 13),
+    Ticket(Winnipeg, Perth, 14),
+    Ticket(Marseille, Beijing, 14),
+    Ticket(Athina, Manila, 14),
+    Ticket(Lagos, Honk_Kong, 14),
+    Ticket(New_York, Tokyo, 15),
+    Ticket(Dar_El_Salaam, Tokyo, 15),
+
+    Ticket(Casablanca, Yakutsk, 16),
+    Ticket(Casablanca, Honolulu, 16),
+    Ticket(Buenos_Aires, Manila, 17),
+    Ticket(Rio_de_Janeiro, Perth, 17),
+    Ticket(Buenos_Aires, Marseille, 18),
+    Ticket(Marseille, Jakarta, 18),
+    Ticket(New_York, Cape_Town, 19),
+    Ticket(Rio_de_Janeiro, Tokyo, 20),
+    Ticket(Edinburgh, Sydney, 25),
+
 ]

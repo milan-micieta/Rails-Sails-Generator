@@ -1,18 +1,17 @@
 from typing import List
 from dataclasses import dataclass, field
 
-
-@dataclass
-class Ticket:
-    start: str
-    end: str
-    price: int = 0
-
-
 @dataclass
 class City:
     name: str
     wharf: bool = False
+
+@dataclass
+class Ticket:
+    start: City
+    end: City
+    points: int = 0
+
 
 
 @dataclass
