@@ -149,36 +149,77 @@ roads = [
 ]
 
 known_tickets = [
-    Ticket(Honk_Kong, Jakarta, 5),
-    Ticket(Marseille, Al_Qahira, 5),
-    Ticket(Bangkok, Perth, 6),
-    Ticket(Jakarta, Sydney, 7),
-    Ticket(Vancouver, Miami, 9),
-    Ticket(New_York, Marseille, 10),
-    Ticket(Edinburgh, Luanda, 10),
-    Ticket(Los_Angeles, Jakarta, 11),
-    Ticket(Moskva, Toamasina, 11),
-    Ticket(Mexico, New_York, 11),
+    Ticket(Honk_Kong, Jakarta, 5),#
+    Ticket(Marseille, Al_Qahira, 5),#
 
-    Ticket(Cape_Town, Jakarta, 13),
-    Ticket(Hamburg, Beijing, 13),
-    Ticket(Miami, Moskva, 13),
-    Ticket(Reykjavik, Murmansk, 13),
-    Ticket(Winnipeg, Perth, 14),
-    Ticket(Marseille, Beijing, 14),
-    Ticket(Athina, Manila, 14),
-    Ticket(Lagos, Honk_Kong, 14),
-    Ticket(New_York, Tokyo, 15),
-    Ticket(Dar_El_Salaam, Tokyo, 15),
+    Ticket(Bangkok, Tokyo, 6),#
+    Ticket(Mumbai, Beijing, 6),#
+    Ticket(Valparaiso, Rio_de_Janeiro, 6),#
 
-    Ticket(Casablanca, Yakutsk, 16),
-    Ticket(Casablanca, Honolulu, 16),
-    Ticket(Buenos_Aires, Manila, 17),
-    Ticket(Rio_de_Janeiro, Perth, 17),
-    Ticket(Buenos_Aires, Marseille, 18),
-    Ticket(Marseille, Jakarta, 18),
-    Ticket(New_York, Cape_Town, 19),
-    Ticket(Rio_de_Janeiro, Tokyo, 20),
-    Ticket(Edinburgh, Sydney, 25),
+    Ticket(Jakarta, Sydney, 7),#
+    Ticket(Djibouti, Labore, 7),#
+
+    Ticket(Hamburg, Dar_El_Salaam, 8),#
+
+    Ticket(Vancouver, Miami, 9),#
+    Ticket(Miami, Buenos_Aires, 9),#
+
+    Ticket(New_York, Marseille, 10),#
+    Ticket(Edinburgh, Luanda, 10),#
+    Ticket(Lagos, Tehran, 10),#
+
+    Ticket(Los_Angeles, Jakarta, 11),#
+    Ticket(Moskva, Toamasina, 11),#
+    Ticket(Mexico, New_York, 11),#
+    Ticket(Rio_de_Janeiro, Dar_El_Salaam, 11),#
+    Ticket(Tokyo, Sydney, 11),#
+
+    Ticket(Caracas, Athina, 12),#
+
+    Ticket(Cape_Town, Jakarta, 13),#
+    Ticket(Hamburg, Beijing, 13),#
+    Ticket(Miami, Moskva, 13),#
+    Ticket(Reykjavik, Mumbai, 13),#
+    Ticket(Mexico, Beijing, 13),#
+    Ticket(Moskva, Honk_Kong,13),#
+    Ticket(Buenos_Aires, Sydney, 13),#
+    Ticket(Vancouver, Edinburgh, 13),#
+    Ticket(Novosibirsk, Darwin, 13),#
+    Ticket(Caracas, Al_Qahira, 13),#
+
+    Ticket(Winnipeg, Perth, 14),#
+    Ticket(Marseille, Beijing, 14),#
+    Ticket(Athina, Manila, 14),#
+    Ticket(Lima, Jakarta, 14),#
+    Ticket(Los_Angeles, Hamburg, 14),#
+    Ticket(Lagos, Honk_Kong, 14),#
+
+    Ticket(New_York, Tokyo, 15),#
+    Ticket(Mexico, Mumbai, 15),#
+    Ticket(Los_Angeles, Rio_de_Janeiro, 15),#
+    Ticket(Moskva, Petropavlovsk, 15),#
+    Ticket(Dar_El_Salaam, Tokyo, 15),#
+
+    Ticket(Casablanca, Yakutsk, 16),#
+    Ticket(Casablanca, Honolulu, 16),#
+
+    Ticket(Buenos_Aires, Manila, 17),#
+    Ticket(Rio_de_Janeiro, Perth, 17),#
+    Ticket(Los_Angeles, Dar_El_Salaam, 17),#
+    Ticket(New_York, Sydney, 17),#
+    Ticket(Edinburgh, Honk_Kong, 17),#
+
+    Ticket(Buenos_Aires, Marseille, 18),#
+    Ticket(Marseille, Jakarta, 18),#
+    Ticket(Rio_de_Janeiro, Hamburg, 18),#
+
+    Ticket(New_York, Cape_Town, 19),#
+    Ticket(New_York, Mumbai, 19),#
+    Ticket(Al_Qahira, Sydney, 19),#
+
+    Ticket(Rio_de_Janeiro, Tokyo, 20),#
+    Ticket(Edinburgh, Tokyo, 22),#
+    Ticket(Marseille, Christchurch, 23),#
+    Ticket(Edinburgh, Sydney, 25),#
 
 ]
